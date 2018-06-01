@@ -50,6 +50,6 @@ if __name__ == '__main__':
         output_dir=output_dir,
         log_dir=log_dir,
         pretrained_model=
-        '/Users/xiaofeng/Code/Github/dataset/CHINESE_OCR/ctpn/pretrain/VGG_imagenet.npy',
+        'data/ctpn/VGG_imagenet.npy',
         max_iters=180000,
         restore=bool(int(0)))

@@ -19,7 +19,7 @@ nclass = len(characters) + 1
 trainroot = '../data/lmdb/train'
 valroot = '../data/lmdb/val'
 # modelPath = '../pretrain-models/keras.hdf5'
-modelPath = '/Users/xiaofeng/Code/Github/dataset/CHINESE_OCR/save_model/my_model_keras.h5'
+modelPath = 'data/save_model/my_model_keras.h5'
 workers = 4
 imgH = 32
 imgW = 256
@@ -34,7 +34,7 @@ LEARNING_RATE = 0.01
 Learning_decay_step = 20000
 PERCEPTION = 0.3
 EPOCH_NUMS = 1000000
-MODEL_PATH = '/Users/xiaofeng/Code/Github/dataset/CHINESE_OCR/save_model/'
+MODEL_PATH = 'data/save_model/'
 LOG_FILE = 'log.txt'
 SUMMARY_PATH = './log/'
 if not os.path.exists(MODEL_PATH):
